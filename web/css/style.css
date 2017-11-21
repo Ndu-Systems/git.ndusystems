@@ -43,7 +43,7 @@ body a:focus {
 }
 /*-- banner --*/ 
 .banner-w3l{ 
-	background:url(../images/1.jpg)no-repeat center 0px;
+	background:url(../images/1.jpeg)no-repeat center 0px;
 	background-size:cover;
 	position: relative;
 } 
@@ -63,8 +63,8 @@ body a:focus {
     padding-left: .5em;
 }
 .logo h1 span {
-    color: #26bdef;
-    background: #fff;
+    color: #f77924;
+    background: #777;
     padding: 0 .2em;
 }
 .logo h1 a label {
@@ -76,7 +76,7 @@ body a:focus {
     text-transform: uppercase;
 }
 .logo h1 a,.logo h1 a:hover{
-    color: #FFFFFF;
+    color: #777;
 	text-decoration: none;
 	outline:none;
 } 
@@ -404,6 +404,18 @@ body a:focus {
     background: #f77924;
     border-bottom: 2px solid #fff;
 }
+.agile_banner_info h2 span {
+    color: #fff;
+    padding: .3em .7em;
+    background: #f77924;
+    border-bottom: 2px solid #fff;
+}
+.agile_banner_info h1 span {
+    color: #fff;
+    padding: .3em .7em;
+    background: #f77924;
+    border-bottom: 2px solid #fff;
+}
 #typed {
     font-size: 3.5em;
     color: #fff;
@@ -486,11 +498,11 @@ body a:focus {
     margin: 0 auto;
 }
 .sim-button {
-    line-height: 50px;
+    line-height: 53px;
     width: 60%;
     cursor: pointer;
-    margin: 0 auto;
-    letter-spacing: 2px;
+    margin: 249px auto;
+    letter-spacing: 8px;
     font-size: 1.2em;
 }
 /*-- //button -- */
@@ -1149,10 +1161,10 @@ footer{
 /*-- inner-pages --*/
 /*-- single-page --*/
 .banner-w3l-2 {
-    background: url(../images/1.jpg)no-repeat center 0px;
+    background: url(../images/1.jpeg)no-repeat center 0px;
     background-size: cover;
     position: relative;
-    min-height: 18em;
+    min-height: 24em;
 }
 .blog {
     padding: 5em 0;

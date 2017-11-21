@@ -94,6 +94,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="angularjs\app.js" />
+    <Content Include="angularjs\config.js" />
+    <Content Include="controllers\homeController.js" />
+    <Content Include="images\1.jpeg" />
+    <Content Include="images\icon.png" />
+    <Content Include="js\angular-route.js" />
+    <Content Include="js\angular.min.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -114,13 +121,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
-    <Content Include="contact.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\lightGallery.css" />
     <Content Include="css\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="gallery.html" />
+    <Content Include="pages\home\gallery.html" />
     <Content Include="icons.html" />
     <Content Include="images\1.jpg" />
     <Content Include="images\2.jpg" />
@@ -161,6 +167,14 @@
     <Content Include="js\responsiveslides.min.js" />
     <Content Include="js\SmoothScroll.min.js" />
     <Content Include="js\typed.js" />
+    <Content Include="pages\home\contact.html" />
+    <Content Include="pages\home\index.html" />
+    <Content Include="pages\home\nav.html" />
+    <Content Include="pages\home\about.html" />
+    <Content Include="pages\home\services.html" />
+    <Content Include="pages\home\makeabuck.html" />
+    <Content Include="pages\home\single.html" />
+    <Content Include="routes\routes.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="single.html" />
