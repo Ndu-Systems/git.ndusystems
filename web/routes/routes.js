@@ -20,5 +20,9 @@
         templateUrl: 'pages/home/services.html',
         controller: 'homeController'
     })
+    .when('/gallery', {
+        templateUrl: 'pages/home/gallery.html',
+        controller: 'homeController'
+    })
     ;
 });

@@ -1169,6 +1169,13 @@ footer{
 .blog {
     padding: 5em 0;
 }
+.blog ,.pad{
+    padding-top: 39px;
+}
+.blog h2{
+    text-align:center; 
+    color:white;
+}
 .blog-top-right-grid {
   padding-right: 0 !important;
 }
@@ -2233,6 +2240,15 @@ ul.w3_short {
 	.news {
 		padding: 4em 0 8em;
 	}
+}
+.banner-bottom h2{
+    text-align: center;
+    color:white;
+}
+
+.gallery_main h2 {
+    text-align:center;
+    color:white;
 }
 @media(max-width: 991px){
 	.wrapper-inner-tab-backgrounds {
