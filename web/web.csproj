@@ -98,7 +98,12 @@
     <Content Include="angularjs\config.js" />
     <Content Include="controllers\homeController.js" />
     <Content Include="images\1.jpeg" />
+    <Content Include="images\cloud.jpg" />
+    <Content Include="images\dash.jpg" />
     <Content Include="images\icon.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\m12.jpg" />
+    <Content Include="images\pc.jpg" />
     <Content Include="js\angular-route.js" />
     <Content Include="js\angular.min.js" />
     <Content Include="packages.config" />
