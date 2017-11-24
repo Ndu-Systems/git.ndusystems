@@ -98,6 +98,7 @@
     <Content Include="angularjs\config.js" />
     <Content Include="controllers\homeController.js" />
     <Content Include="images\1.jpeg" />
+    <Content Include="images\cart.jpg" />
     <Content Include="images\cloud.jpg" />
     <Content Include="images\dash.jpg" />
     <Content Include="images\icon.png" />
