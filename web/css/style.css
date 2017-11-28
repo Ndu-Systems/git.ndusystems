@@ -2054,7 +2054,7 @@ h3.title-w3l.w3l-2:before {
 .w3l_contact_grid_right ul li a:hover{
 	color:#5ec05d;
 }
-.w3_contact_grid input[type="text"],.w3_contact_grid input[type="email"],.w3_contact_grid textarea{
+.w3_contact_grid input[type="text"],.w3_contact_grid input[type="email"],.w3_contact_grid input[type="tel"],.w3_contact_grid textarea{
 	outline: none;
     border: 1px solid #dddddd;
     width: 100%;
@@ -2242,7 +2242,7 @@ ul.w3_short {
 }
 .banner-bottom h2{
     text-align: center;
-    color:white;
+    color:#f77924;
 }
 
 .gallery_main h2 {

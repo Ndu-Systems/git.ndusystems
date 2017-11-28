@@ -45,10 +45,11 @@
 						<div class="col-xs-3 w3l_contact_grid_left">
 							<span class="fa fa-map-marker" aria-hidden="true"></span>
 						</div>
-						<div class="col-xs-9 w3l_contact_grid_right">
+						 <div class="col-xs-9 w3l_contact_grid_right">
 							<ul>
-								<li>345 Diamond Street,</li>
-								<li>Greece.</li>
+								<li>270 Marshall St, City and Suburban</li>
+								<li>Johannesburg</li>
+                                <li>2094</li>
 							</ul>
 						</div>
 						<div class="clearfix"> </div>
@@ -69,14 +70,14 @@
 				<div class="col-md-9 w3_contact_grid">
 					<form action="#" method="post">
 						<div class="col-md-6 wthree_contact_grid_left">
-							<input type="text" name="Name" placeholder="Name" required="">
-							<input type="email" name="Email" placeholder="Email" required="">
-							<input type="text" name="Website" placeholder="Website" required="">
-							<input type="text" name="Subject" placeholder="Subject" required="">
+							<input type="text" name="Name" ng-model="name" placeholder="Name" required="">
+							<input type="email" name="Email"ng-model="email"  placeholder="Email" required="">							
+                            <input type="tel" name="Name" ng-model="number" placeholder="Cell Number" required="">
+                            <input type="text" name="Subject"ng-model="subject"  placeholder="Subject" required="">
 						</div>
 						<div class="col-md-6 wthree_contact_grid_right">
-							<textarea placeholder="Message..." required=""></textarea>
-							<input type="submit" value="Send" >
+							<textarea placeholder="Message..." ng-model="message" required=""></textarea>
+							<input type="submit" ng-click="SendMail()" value="Send" >
 						</div>
 					</form>
 				</div>

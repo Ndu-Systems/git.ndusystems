@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="angularjs\app.js" />
     <Content Include="angularjs\config.js" />
+    <Content Include="api\emailbeta.php" />
     <Content Include="controllers\homeController.js" />
     <Content Include="images\1.jpeg" />
     <Content Include="images\cart.jpg" />
