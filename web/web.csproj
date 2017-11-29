@@ -100,6 +100,7 @@
     <Content Include="api\conn.php" />
     <Content Include="api\emailbeta.php" />
     <Content Include="api\get.php" />
+    <Content Include="api\ndusys0_one %281%29.sql" />
     <Content Include="api\upload.php" />
     <Content Include="controllers\homeController.js" />
     <Content Include="images\1.jpeg" />
