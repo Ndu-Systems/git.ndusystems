@@ -24,5 +24,13 @@
         templateUrl: 'pages/home/gallery.html',
         controller: 'homeController'
     })
+     .when('/Add-Business', {
+         templateUrl: 'pages/home/addbusiness.html',
+         controller: 'homeController'
+     })
+     .when('/Fearured-Business', {
+         templateUrl: 'pages/home/viewbusinesses.html',
+         controller: 'businessController'
+     })
     ;
 });

@@ -1,0 +1,96 @@
+﻿<div class="main-agile">
+    <div class="banner-w3l-2">
+        <!-- header -->
+        <div class="banner-w3l-2">
+            <!-- header -->
+            <div ng-include="'pages/home/nav.html'"></div>
+        </div>
+    </div>
+</div>
+<div class="services-breadcrumb">
+	<div class="agile_inner_breadcrumb">
+	   <ul class="w3_short">
+			<li><a href="index.html">Home</a><i>||</i></li>
+			<li>Featured business</li>
+        <li><a href="#Add-Business">Add Your Business</a><i>||</i></li>
+		</ul>
+	</div>
+</div>
+<!-- //w3_short -->
+<!-- blog -->
+	<div class="blog">
+			<!-- container -->
+			<div class="container">
+				<div class="col-md-12 col-lg-12 col-sm-12">
+					<div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h2>Featured business</h2>
+                        </div>                        
+                    </div>
+                    <div>
+                        <h1 style="text-align:center;">'Work Enjoy'</h1>
+                        <div class="row pad" ng-repeat="c in companies">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <a href="#/services">
+                                    <img ng-src="{{c.image}}" width="300" />
+                                </a>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <h3> {{c.name}}</h3>
+                                <p>{{c.notes}}</p>
+                                <p><a href="{{c.weburl}}" target="_blank">{{c.weburl}}</a></p>
+                                <p>{{c.email}}</p>
+                                <p>{{c.tel}}</p>
+                            </div>
+                        </div>
+                        <div class="row pad">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <a href="#/services">
+                                    <img src="images/g2.jpg" width="300" />
+                                </a>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <h3><i class="fa fa-search" aria-hidden="true"></i>  Our Vision & Mission Statement</h3>
+                                <p>
+                                    Developing cheap and affordable platforms available on the Internet a digital footprint is important for
+                                    every individual and business who wants to compete in the latest trends and be easily accessible by everyone from anywhere around the world.
+                                    skills assets in the technology space to provide software services and better the lives of our customer base. 
+                                    We hardly discriminate whether it’s a personal website or an organizational website selling goods and advertising.
+                                </p>
+                                <p>
+                                   At Ndu-systems we pride ourselves in offering excellent service in professional disciplines, 
+                                    in accordance with statutory practices,codes of conduct and integrity, thereby providing a leading platform from which to service our valued Clients.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row pad">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <a href="#/services">
+                                    <img src="images/g2.jpg" width="300" />
+                                </a>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <h3><i class="fa fa-cubes" aria-hidden="true"></i>  Technologies</h3>
+                                <br />
+                                <div>
+                                    <div><i class="fa fa-cube" aria-hidden="true"></i>  PHP</div>
+                                    <div><i class="fa fa-cube" aria-hidden="true"></i>  HTML5</div>
+                                    <div><i class="fa fa-cube" aria-hidden="true"></i>  CSS3</div>
+                                    <div><i class="fa fa-cube" aria-hidden="true"></i>  ANGULAR 1 & 2</div>
+                                    <div><i class="fa fa-cube" aria-hidden="true"></i>  JavaScript</div>
+                                    <div><i class="fa fa-cube" aria-hidden="true"></i>  MVC</div>
+                                    <div><i class="fa fa-cube" aria-hidden="true"></i>  MVVC</div>
+                                    <div><i class="fa fa-cube" aria-hidden="true"></i>  GitHub</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+				</div>				 
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //container -->
+	</div>
+	<!-- //blog -->
+
+ 

@@ -1,5 +1,5 @@
 ﻿var extention = ".php";
-var host = "http://localhost/git.ndusystems/web/api/";
+var host = "http://localhost:8080/git.ndusystems/web/api/";
 //var host = "http://ndu-systems.net/demo/ndusystems/api/";
 
 function GetApiUrl(serviceName) {
