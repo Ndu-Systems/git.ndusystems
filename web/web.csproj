@@ -96,9 +96,11 @@
   <ItemGroup>
     <Content Include="angularjs\app.js" />
     <Content Include="angularjs\config.js" />
+    <Content Include="api\AddCompany.php" />
     <Content Include="api\conn.php" />
     <Content Include="api\emailbeta.php" />
     <Content Include="api\get.php" />
+    <Content Include="api\upload.php" />
     <Content Include="controllers\homeController.js" />
     <Content Include="images\1.jpeg" />
     <Content Include="images\cart.jpg" />
@@ -190,6 +192,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="api\uploads\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

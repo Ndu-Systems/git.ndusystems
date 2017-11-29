@@ -21,22 +21,27 @@
 			<!-- container -->
 			<div class="container">
                 <div class="col-md-9 w3_contact_grid">
-                    <form action="#" method="post">
+                    <form>
                         <div class="col-md-6 wthree_contact_grid_left">
                             <input type="text" name="Company Name" ng-model="name" placeholder="Company Name" required="">
                             <input type="email" name="Email" ng-model="email" placeholder="Email" required="">
-                            <input type="tel" name="Name" ng-model="number" placeholder="Tel Number" required="">
+                            <input type="tel" name="Name" ng-model="tel" placeholder="Tel Number" required="">
                             <textarea placeholder="Address..." ng-model="address" required=""></textarea>
                         </div>
                         <div class="col-md-6 wthree_contact_grid_right">
                            
-                            <input type="text" name="Website Url" ng-model="weburl" placeholder="Email" required="">
+                            <input type="text" name="Website Url" ng-model="weburl" placeholder="Website Url" required="">
                             <input type="password" name="Create Password" ng-model="pass" placeholder="Create Password" required="">
+                            <input type="text" name="Company City" ng-model="city" placeholder="Company City" required="">
                             <textarea placeholder="Services..." ng-model="notes" required=""></textarea>
-                           Company Logo:  <input type="file" name="Profile Pic" ng-model="name" placeholder="Name" required="">
-                            <input type="submit" ng-click="SendMail()" value="Submit">
+                           Company Logo: 
+                            <div class="input-group input-icon right">
+                                <input id="email" class="form-control1"  type="file" placeholder="Availabity" onchange="angular.element(this).scope().filesChanged(this)">
+                            </div>
+                            <input type="button" ng-click="AddCompany()" value="Submit">
                         </div>
                     </form>
+                    {{message}}
                 </div>
                 <div class="clearfix"> </div>			 
 			</div>
@@ -44,4 +49,3 @@
 	</div>
 	<!-- //blog -->
 
- `id`, `name`, `email`, `tel`, `address`, `pass`, `image`, `notes`, `date_created`, `weburl`, `status`

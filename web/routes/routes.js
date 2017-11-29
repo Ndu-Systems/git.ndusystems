@@ -26,7 +26,7 @@
     })
      .when('/Add-Business', {
          templateUrl: 'pages/home/addbusiness.html',
-         controller: 'homeController'
+         controller: 'AddBusinessController'
      })
      .when('/Fearured-Business', {
          templateUrl: 'pages/home/viewbusinesses.html',
